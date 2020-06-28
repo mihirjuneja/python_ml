@@ -41,7 +41,7 @@ def std_time_stamp(dt_column, VAL):
     return dt_series
 #-------------------------- Main --------------------------
 
-df = pd.read_csv('quadrical_data.csv')
+df = pd.read_csv('solar_data.csv')
 
 df = normalize_inv_data(df)
 
